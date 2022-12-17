@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/login.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title"> SKKU WANTED </h1>
+      <h2 class="introduction"> Make your own RESUME </h2>
+      <div class="box">
+      
+        <div class="contents">
+          <form class="login_content" action="login_validate.jsp" method="post">
+            <img src="./images/uncle_sam.png" class="login_image" width="160px">
+            <p class="instruction" id="instruction_login">Enter user name and password</p>
+            <div class="sub_box">
+              <p class="sub_title">User name</p>
+              <input class="input_box" id="input_email_login" name="user_name" type="text" placeholder="User name">
+              <p class="sub_title">Password</p>
+              <input class="input_box" id="input_password_login" name="password" type="password" placeholder="Password">
+            </div>
+            <input class="button" id = "login" type="submit" value="Login">
+            <div class="signup_tap"> Sign Up </div>
+          </form>
+          
+          <form class="signup_content" action="signup_validate.jsp" method="post">
+            <p class="instruction">Fill in the form</p>
+            <div class="sub_box">
+              <p class="sub_title">User name<span id="error_msg_user_name" class="error_msg"></span></p>
+              <input class="input_box" id="user_name" name="user_name"type="text" placeholder="User name">
+              <p class="sub_title">Password<span id="error_msg_password" class="error_msg"></span></p>
+              <input class="input_box" id="input_password" name="password" type="password" placeholder="Password (At least length 6)">
+              <p class="sub_title">First name<span id="error_msg_first_name" class="error_msg"></span></p>
+              <input class="input_box" id="input_first_name" name="first_name" type="text" placeholder="First name (Start with capital letter)">
+              <p class="sub_title">Last name<span id="error_msg_last_name" class="error_msg"></span></p>
+              <input class="input_box" id="input_last_name" name="last_name" type="text" placeholder="Last name (Start with Capital letter)">
+              <p class="sub_title">Email<span id="error_msg_email" class="error_msg"></span></p>
+              <input class="input_box" id="input_email" name="email" type="email" placeholder="Email">
+            </div>
+            <input class="button" id = "signup" type="submit" value="Sign Up">
+          </form>
+        </div>
+      </div>
+      <h2 class="inst1"> It's time to increase your VALUE </h2>
+      <h1 class="inst2"> REWARD &nbsp; &nbsp; $999,999,999 </h1>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
