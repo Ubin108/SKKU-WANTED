@@ -42,38 +42,38 @@ template_1.jpg, template_2.jpg, template_3.jpg, template_4.jpg, template_5.jpg, 
 <p>
 First, create a database named "websitedb" and set the username and password to "root". Subsequently, the attached "DDL.sql" file creates the following table: <br>
 [users] <br>
-<img src="./readme_images/users.png"> <br>
+<img src="./readme_images/users.jpg"> <br>
 [personal] <br>
-<img src="./readme_images/personal.png"> <br>
+<img src="./readme_images/personal.jpg"> <br>
 [skills] <br>
-<img src="./readme_images/skills.png"> <br>
+<img src="./readme_images/skills.jpg"> <br>
 [experience] <br>
-<img src="./readme_images/experience.png"> <br>
+<img src="./readme_images/experience.jpg"> <br>
 [education] <br>
-<img src="./readme_images/education.png">
+<img src="./readme_images/education.jpg">
 </p>
 <p>
 After creating the database, run the index.html file through the server and you will see the login screen: <br>
-<img src="./readme_images/login_screen.png"> <br>
+<img src="./readme_images/login_screen.jpg"> <br>
 To log in, you must create an ID and save information in the database. Click sign up and create an ID. <br>
-<img src="./readme_images/signup_screen.png"> <br>
+<img src="./readme_images/signup_screen.jpg"> <br>
 If your ID and password do not match, a warning message will be displayed and you will not be able to log in. Enter the correct ID and proceed to the next step. <br>
-<img src="./readme_images/login_error.png"> <br>
+<img src="./readme_images/login_error.jpg"> <br>
 If you have successfully logged in, you can see the following screen: <br>
 You can choose your favorite template from the six registered resume templates. <br>
-<img src="./readme_images/main_screen.png"> <br>
+<img src="./readme_images/main_screen.jpg"> <br>
 After you select the template, you must enter the information you want to create on your resume. Create personal information, skills, academic, experience items and click the enter button <br>
-<img src="./readme_images/input_screen_1.png"> <br>
-<img src="./readme_images/main_screen_2.png"> <br>
+<img src="./readme_images/input_screen_1.jpg"> <br>
+<img src="./readme_images/input_screen_2.jpg"> <br>
 This is how you got your own resume! To save your resume to your local repository, press the "Save This RESUME" button at the top left of the page. <br>
-<img src="./readme_images/resume_screen_2.png"> <br>
+<img src="./readme_images/resume_screen.jpg"> <br>
 </p>
 <p>
 There are three buttons on the navigation bar: <br>
 (1) Click the "SKKU WANTED" button to return to the main page. <br>
 (2) If you want to see your last resume, click the "View my RESUME" button in the upper left corner of the main page. <br>
 (3) Press the "signout" button in the upper right corner to log out after you've done all the work. <br>
-<img src="./readme_images/nav_bar.png"> <br>
+<img src="./readme_images/nav_bar.jpg"> <br>
 </p>
 </p>
 
