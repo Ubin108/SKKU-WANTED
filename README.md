@@ -1,4 +1,6 @@
 # SKKU-WANTED
+<em>🏆 2022 Web APP Innovation Contest 3rd Award</em>
+
 
 ## Introduction
 We have created a page that can help in the process of writing RESUME, which is a concern of all job seekers.
