@@ -81,7 +81,7 @@ There are three buttons on the navigation bar: <br>
 
 ## Code Architecture
 <p>
-(1) Frontend part
+(1) Frontend part (Youbin Kim)
 <p>
 [login.js] <br>
 Login: <br>
@@ -117,7 +117,7 @@ For screenshots with JavaScript, use the source of html2canvas(https://html2canv
 </p>
 </p>
 <p>
-(2) Backend part <br>
+(2) Backend part (Jaeung Lee)<br>
 [DDL.sql] <br>
 sql file for database table creation. Create a database with the following ER diagrams: <br>
 <img src="./readme_images/er_diagram.jpg" width="500px"> <br>
